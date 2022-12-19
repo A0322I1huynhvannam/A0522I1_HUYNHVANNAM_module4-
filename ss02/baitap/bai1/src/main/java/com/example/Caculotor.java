@@ -1,4 +1,4 @@
-package Controller;
+package com.example;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class CaculatorController {
+public class Caculotor {
     @GetMapping("/home")
-
-        public String home(){
-            return "home";
+    public String home() {
+        return "home";
     }
+
     @PostMapping("/test")
     public String test(@RequestParam("toantu") String[] toantu, @RequestParam(value = "number1") int number1, @RequestParam(value = "number2") int number2, Model model) {
         int kq = 0;

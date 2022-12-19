@@ -1,13 +1,14 @@
-<!doctype html>
-<%@taglib prefix="form" uri="http://www.springframework.org/tags" %>
-
-<html lang="en">
+<%--
+  Created by IntelliJ IDEA.
+  User: admin
+  Date: 19-Dec-22
+  Time: 6:47 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Title</title>
 </head>
 <body>
 <h1>Sandwich Condiments</h1>
@@ -20,6 +21,6 @@
     <button name="toantu" value="nhan">Multiplication(x)</button>
     <button name="toantu" value="chia">Division(/)</button>
 </form>
-<h2>${kq}</h2>
+<h2>ket qua : ${kq}</h2>
 </body>
 </html>
