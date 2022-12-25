@@ -5,6 +5,9 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<h1><%= "Hello World!" %>
+</h1>
+<br/>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 </body>
 </html>
