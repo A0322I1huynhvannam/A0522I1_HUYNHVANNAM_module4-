@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fe16c30-8585-4f04-9a8c-02a3fd6c4758" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../ss05/.idea/ss05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss05/baitap/Product/demo/src/main/java/com/example/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss05/baitap/Product/demo/src/main/java/com/example/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss05/baitap/Product/demo/src/main/java/com/example/repository/impl/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss05/baitap/WebMusic/demo/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss05/baitap/pictureToday/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss05/baitap/pictureToday/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss05/baitap/pictureToday/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss04/baitap/.idea/baitap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss04/baitap/.idea/baitap.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss05/baitap/WebMusic/demo/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss05/baitap/WebMusic/demo/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss05/baitap/WebMusic/demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss05/baitap/WebMusic/demo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss05/baitap/WebMusic/demo/src/main/java/com/example/config/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss05/baitap/WebMusic/demo/src/main/java/com/example/config/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss05/baitap/pictureToday/src/main/java/com/example/config/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss05/baitap/pictureToday/src/main/java/com/example/config/AppConfiguration.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JwzMrrgMgyAlvZ64UHHx9CO6BF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/codegym/A0522I1huynhvannam/module4/ss06/baitap/demo",
+    "settings.editor.selected.configurable": "MTConfigurable",
+    "spring.configuration.checksum": "9de0862494cc3aa211be7c76dc6b547b",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fe16c30-8585-4f04-9a8c-02a3fd6c4758" name="Changes" comment="" />
+      <created>1673003888608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673003888608</updated>
+      <workItem from="1673003889781" duration="141000" />
+      <workItem from="1673007722749" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
