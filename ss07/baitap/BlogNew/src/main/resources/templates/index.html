@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Home blog</title>
+  <form method="GET" th:action="@{/blog/search}" >
+    <label>Search by id: </label>
+    <input type="text" name="txtSearch"/>
+    <input name="action" type="hidden" value="findName"/>
+    <input type="submit" value="Search"/>
+  </form>
+</head>
+<body>
+<a th:href="@{/blog/create}">Add new</a>
+<table width="700px" border="1">
+  <tr>
+    <th>STT</th>
+    <th>Name Blog</th>
+    <th>Content Blog</th>
+    <th>Category</th>
+    <th>Delete</th>
+    <th>Edit</th>
+  </tr>
+  <tr th:each="blog,loop : ${listBlog}">
+    <td th:text="${loop.count}"></td>
+    <td th:text="${blog.nameBlog}"></td>
+    <td th:text="${blog.contentBlog}"></td>
+    <td th:text="${blog.getCategory()}"></td>
+
+    <!--        <td><a th:href="@{/blog/{id}/delete(id=${blog.id})}">Delete</a></td>-->
+    <td><a th:href="@{/blog/delete/{id}(id=*{blog.id})}">Delete</a></td>
+    <td><a th:href="@{/blog/edit/{id}(id=*{blog.id})}">edit</a></td>
+
+  </tr>
+</table>
+</body>
+</html>
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
