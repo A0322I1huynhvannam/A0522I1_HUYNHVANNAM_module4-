@@ -83,7 +83,7 @@ public class AppConfiguration extends WebMvcConfigurerAdapter implements Applica
     }
 
     // Hibernate config
-    private final Properties hibernateProperties() {
+    private  Properties hibernateProperties() {
         Properties hibernateProperties = new Properties();
         hibernateProperties.setProperty("hibernate.hbm2ddl.auto", "update"); //create, create-drop
         hibernateProperties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");

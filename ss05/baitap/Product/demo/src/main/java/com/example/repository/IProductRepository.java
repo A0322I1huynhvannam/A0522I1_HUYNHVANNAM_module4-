@@ -1,4 +1,4 @@
-package com.example.repository.impl;
+package com.example.repository;
 
 import com.example.model.Product;
 

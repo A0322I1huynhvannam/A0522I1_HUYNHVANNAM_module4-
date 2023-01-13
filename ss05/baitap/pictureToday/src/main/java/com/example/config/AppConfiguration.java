@@ -1,5 +1,6 @@
 package com.example.config;
 
+
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
@@ -69,7 +70,7 @@ public class AppConfiguration  extends WebMvcConfigurerAdapter implements Applic
         datasource.setDriverClassName("com.mysql.jdbc.Driver");
         datasource.setUrl("jdbc:mysql://localhost:3306/pictureTodayDB?useSSL=false&useUnicode=true&characterEncoding=utf8");
         datasource.setUsername("root");
-        datasource.setPassword("huynhvannam1");
+        datasource.setPassword("261024");
         return datasource;
     }
 
@@ -86,7 +87,7 @@ public class AppConfiguration  extends WebMvcConfigurerAdapter implements Applic
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         LocalContainerEntityManagerFactoryBean entityManagerFactory = new LocalContainerEntityManagerFactoryBean ();
         entityManagerFactory.setDataSource(getDataSource());
-        entityManagerFactory.setPackagesToScan(new String[]{"com.example.bean"});
+        entityManagerFactory.setPackagesToScan(new String[]{"codegym.vn.bean"});
 
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         entityManagerFactory.setJpaVendorAdapter(vendorAdapter);
