@@ -7,7 +7,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
-public class Music {
+public class Music1 {
     @Id
     @NotEmpty
     @Size(max = 800)
@@ -22,10 +22,10 @@ public class Music {
     @Pattern(regexp = "^(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]",message = "Url Không đúng định dạng")
     private String url;
 
-    public Music() {
+    public Music1() {
     }
 
-    public Music(String musicName, String musical, String musicType, String url) {
+    public Music1(String musicName, String musical, String musicType, String url) {
         this.musicName = musicName;
         this.musical = musical;
         this.musicType = musicType;

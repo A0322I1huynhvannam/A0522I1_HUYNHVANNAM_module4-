@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7db02812-12ef-487c-b505-eb04823afc1d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../ss10/thuchanh/login/src/main/java/com/example/login/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss10/thuchanh/login/src/main/java/com/example/login/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss10/thuchanh/login/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11/baitap/Blog/src/main/java/com/example/blog/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11/baitap/Blog/src/main/java/com/example/blog/model/CategoryBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11/baitap/Blog/src/main/java/com/example/blog/repository/IRepositoryBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11/baitap/Blog/src/main/java/com/example/blog/repository/IRepositoryCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11/baitap/Blog/src/main/java/com/example/blog/restful/RestfulBlogCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11/baitap/Blog/src/main/java/com/example/blog/service/IServiceBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11/baitap/Blog/src/main/java/com/example/blog/service/IServiceCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11/baitap/Blog/src/main/java/com/example/blog/service/iml/ServiceBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss11/baitap/Blog/src/main/java/com/example/blog/service/iml/ServiceCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/controller/MusicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/controller/MusicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/model/Music1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/model/Music1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/repository/IMusicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/repository/IMusicRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/service/IMusicServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/service/IMusicServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/service/MusicServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/service/MusicServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/utils/ConstraintMusicType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/utils/ConstraintMusicType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/utils/ValidateMusicType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/Music/src/main/java/com/example/music/utils/ValidateMusicType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/Music/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/Music/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/Music/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/Music/src/main/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/Music/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/Music/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10/thuchanh/shopping/src/main/java/com/example/shopping/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10/thuchanh/shopping/src/main/java/com/example/shopping/controller/ShoppingCartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10/thuchanh/shopping/src/main/java/com/example/shopping/model/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10/thuchanh/shopping/src/main/java/com/example/shopping/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10/thuchanh/shopping/src/main/java/com/example/shopping/repository/IProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10/thuchanh/shopping/src/main/java/com/example/shopping/service/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10/thuchanh/shopping/src/main/java/com/example/shopping/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10/thuchanh/shopping/src/main/resources/templates/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10/thuchanh/shopping/src/main/resources/templates/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10/thuchanh/shopping/src/main/resources/templates/error.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10/thuchanh/shopping/src/main/resources/templates/shop.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LlwQc7fIXwemWGk4ci6UH8NZXQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "MTConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7db02812-12ef-487c-b505-eb04823afc1d" name="Changes" comment="" />
+      <created>1676458962721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676458962721</updated>
+      <workItem from="1676458964426" duration="78000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
