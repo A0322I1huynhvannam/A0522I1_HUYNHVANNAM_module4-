@@ -5,7 +5,7 @@
   <title>Title</title>
 </head>
 <body>
-<h1>update customer</h1>
+<h1>UPDATE </h1>
 <form th:action="@{/customer/update}" th:object="${customer}" method="post" >
   <label>
     <p>Customer type</p>
@@ -17,6 +17,11 @@
       ></option>
     </select>
   </label><br><br>
+  <label>
+    <input type="text"  th:field="*{customerId}" disabled><br>
+    <span style="color: red" th:if="${#fields.hasErrors('customerId')}" th:errors="*{customerId}"></span>
+  </label><br><br>
+
   <label>
     <input type="text"  th:field="*{customerName}" placeholder="input name customer"><br>
     <span style="color: red" th:if="${#fields.hasErrors('customerName')}" th:errors="*{customerName}"></span>

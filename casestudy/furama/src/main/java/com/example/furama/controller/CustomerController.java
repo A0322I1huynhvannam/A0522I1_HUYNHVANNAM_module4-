@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -41,22 +42,23 @@ public class CustomerController {
             model.addAttribute("customerTypes", customerTypeService.findAll());
             return "customer/create";
         }
-        customerService.create(customer);
+        customerService.save(customer);
         return "redirect:/customer/index";
     }
     @GetMapping("/update/{id}")
-    public String showCustomer(@PathVariable("id") Integer id, Model model){
+    public String showEdit(@PathVariable("id") Integer id, Model model){
         model.addAttribute("customer", customerService.findById(id));
         model.addAttribute("customerTypes", customerTypeService.findAll());
         return "/customer/update";
     }
-    @PostMapping("/edit")
-    public String update(@Valid @ModelAttribute("customer") Customer customer, BindingResult bindingResult, Model model) {
+
+    @PostMapping("/update")
+    public String edit(@Valid @ModelAttribute("customer") Customer customer, BindingResult bindingResult, Model model) {
         if (bindingResult.hasErrors()) {
             model.addAttribute("customerTypes", customerTypeService.findAll());
-            return "customer/update";
+            return "/customer/update";
         }
-        customerService.update( customer );
+        customerService.save(customer);
         return "redirect:/customer/index";
     }
     @GetMapping("/delete")

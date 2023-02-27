@@ -7,8 +7,7 @@ import org.springframework.data.domain.Pageable;
 import java.util.List;
 
 public interface ICustomerService {
-    void create(Customer customer);
-    void update(Customer customer);
+    void save(Customer customer);
     void delete(Integer id);
     List<Customer> findAll();
     Customer findById(Integer id);

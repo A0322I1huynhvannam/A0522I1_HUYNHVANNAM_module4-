@@ -15,14 +15,10 @@ public class CustomerService implements ICustomerService {
     @Autowired
     ICustomerRepo customerRepo;
 
-    @Override
-    public void create(Customer customer) {
-        customerRepo.save(customer);
-    }
 
     @Override
-    public void update(Customer customer) {
-        customerRepo.save(customer);
+    public void save(Customer customer) {
+        customerRepo.save( customer );
     }
 
     @Override

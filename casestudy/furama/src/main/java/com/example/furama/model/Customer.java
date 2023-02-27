@@ -38,7 +38,7 @@ public class Customer {
         return customerId;
     }
 
-    public void setCustomerId(Integer customerId) {
+    public void setCustomerId() {
         this.customerId = customerId;
     }
 
