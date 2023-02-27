@@ -1,0 +1,3 @@
+create database demo_final_module_4_1;
+use demo_final_module_4_1;
+drop database demo_final_module_4_1;
